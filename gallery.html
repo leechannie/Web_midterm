@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8/">
+    <title>자기소개 Page</title></head>
+    <style>
+        #nav-c{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            background-color: rgb(161, 221, 63);
+        }
+        #nav-i{
+            padding: 15px;
+            cursor: pointer;
+        }
+        .title{
+            background-color: rgb(161, 221, 63);
+            width: 100%;
+        }
+        h2{
+            color: rgb(161, 221, 63);
+            text-align: center;
+        }
+        h5{
+            color: rgb(179, 179, 179);
+            text-align: center;
+            margin-top: 0;
+           
+            }
+        footer{
+            background-color: rgb(184, 184, 184);
+            bottom: 0;  
+            width: 100%;   
+            margin-top: 50px;  
+        }
+    </style>
+    
+<body>
+   <nav id="nav-c"> 
+       <a id="nav-i" style="color:  white; text-decoration: none; font-weight: bold;" href="/home"> Home </a> 
+       <a id="nav-i" style="color: white; text-decoration: none; font-weight: bold;" href="/sns"> SNS </a> 
+       <a id="nav-i" style="color: white; text-decoration: none; font-weight: bold;" href="/guest"> 방명록 </a> 
+       <a id="nav-i" style="color: white; text-decoration: none; font-weight: bold;" href="/gallery"> 갤러리 </a> 
+   </nav> 
+    <h2>🙆‍사진의 제목을 함께 지어봐요🙆‍♀️</h2>
+    <h5>누구나 사진의 제목 수정이 가능합니다.</h5>
+    <div>
+            <img width="200px" height="200px" src="img/p0.JPG">
+            <p id="title1">해 뜨는 캠핑장</p>
+            <form id="form1" class="title">
+                <label>name: </label>
+                <input type="text" name="title">
+                <button type="submit">저장💬</button>
+               </form> 
+               <img width="200px" height="200px" src="img/p1.JPG">
+               <p id="title2">가을의 어느 풍경</p>
+               <form id="form2" class="title">
+                   <label>name: </label>
+                   <input type="text" name="title">
+                   <button type="submit">저장💬</button>
+                  </form> 
+                <img width="200px" height="200px" src="img/p2.JPG">
+               <p id="title3">귀여운 강아지</p>
+               <form id="form3" class="title">
+                   <label>name: </label>
+                   <input type="text" name="title">
+                   <button type="submit">저장💬</button>
+                  </form> 
+                  <img width="200px" height="200px" src="img/p3.JPG">
+                  <p id="title4">내 상태</p>
+                  <form id="form4" class="title">
+                      <label>name: </label>
+                      <input type="text" name="title">
+                      <button type="submit">저장💬</button>
+                     </form>
+            
+       </div> 
+       <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./galleyTitle.js"></script>
+       <footer>
+        <address>
+            연락처 : <a href="mailto:webmaster@somedomain.com">lch02130@naver.com</a> <br> 
+        </address> 
+            고급웹프로그래밍, 2021 high-level web programming midterm <br>
+            <small>Copyright &copy; 2021 leechanhee</small>
+    </footer>
+   
+</body>
+</html>

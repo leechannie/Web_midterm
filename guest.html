@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8"/>
+        <title>방문자 기록</title>
+        <style>
+        #nav-c{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            background-color: rgb(252, 159, 53);
+        }
+        #nav-i{
+            padding: 15px;
+            cursor: pointer;
+        }
+        #im{
+            background-color: rgb(252, 159, 53);
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            margin-left: 40%;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            color: rgb(252, 159, 53);
+            margin-bottom: 80px;
+        }
+        footer{
+            background-color: rgb(184, 184, 184);
+            bottom: 0; 
+            width: 100%;  
+            margin-top: 50px;
+        }
+
+        </style>
+    </head>
+
+    <body>
+        <nav id="nav-c"> 
+            <a id="nav-i" style="color: white; text-decoration: none; font-weight: bold;" href="/home"> Home </a> 
+            <a id="nav-i" style="color: white; text-decoration: none; font-weight: bold;" href="/sns"> SNS </a> 
+            <a id="nav-i" style="color: white; text-decoration: none; font-weight: bold;" href="/guest"> 방명록 </a> 
+            <a id="nav-i" style="color: white; text-decoration: none; font-weight: bold;" href="/gallery"> 갤러리 </a> 
+        </nav> 
+        <p>
+            <div id="im">
+                <img width="250px" height="250px"  src="img/photo_1.PNG"> 
+            </div>
+        <h2>✍방문 기록을 남겨주세요✍</h2>
+        <div>
+            <form id="form">
+                <label>방문자 명</label>
+                <input type="text" id="name"> <br>
+                <label>남기는 말</label>
+                <input type="text" id="memo">
+                <button type="submit">등록💌</button>
+            </form>
+        </div>
+        <p>
+        <div id="list"></div>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./guestUser.js"></script>
+        <footer>
+            <address>
+                연락처 : <a href="mailto:webmaster@somedomain.com">lch02130@naver.com</a> <br> 
+            </address> 
+                고급웹프로그래밍, 2021 high-level web programming midterm <br>
+                <small>Copyright &copy; 2021 leechanhee</small>
+        </footer>
+    </body>
+</html>
