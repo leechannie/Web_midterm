@@ -14,7 +14,7 @@
   "author": "LCH",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
     "dialog": "^0.3.1",
