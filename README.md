@@ -2,7 +2,7 @@
 > 자기소개 Web 제작
 
 
-npm start
+## npm start
 Runs the app in the development mode.
 Open http://localhost:8000 to view it in the browser.
 
