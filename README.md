@@ -1,6 +1,6 @@
 # 2021 고급 웹프로그래밍 중간 프로젝트
-> 자기소개 Web 제작 <br>
-> node js 사용한 간단한 사이트 
+> node js 사용한 간단한 사이트 자기소개 Web 제작 <br>
+> Datebase 미사용 
 
 
 ## npm start
