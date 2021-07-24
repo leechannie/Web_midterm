@@ -9,4 +9,8 @@ Open http://localhost:8000 to view it in the browser.
 The page will reload if you make edits.
 You will also see any lint errors in the console.
 
+## How to use?
+> https://drive.google.com/file/d/1kP4UeB2WCihjVszAMmGSMa5SeR68V6Uq/view?usp=sharing
+
 ## Result 
+> https://youtu.be/vdcjT2Ri94g
